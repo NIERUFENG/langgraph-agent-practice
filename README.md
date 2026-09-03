@@ -15,7 +15,7 @@
 
 ## 运行方式
 pip install langgraph langchain
-python main.py
+python agent_demo.py
 
 ## 踩坑记录
 1. Agent 之间状态传递容易丢失上下文，最终通过显式 State 管理解决
